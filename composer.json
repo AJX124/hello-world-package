@@ -1,0 +1,13 @@
+{
+    "name": "ndps/hello-world-package",
+    "description": "\"A hello world composer private package.\"",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ndps\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
